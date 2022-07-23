@@ -1,14 +1,12 @@
 import sys
 from setuptools import setup, find_packages
 
-
 assert sys.version_info.major == 3 and sys.version_info.minor >= 6, \
     "Bullet-Safety-Gym uses Python 3.6 and above. "
 
-with open('README.md', 'r') as f:
+with open('README.md', 'r', encoding="utf_8") as f:
     # description from readme file
     long_description = f.read()
-
 
 setup(
     name='bullet_safety_gym',

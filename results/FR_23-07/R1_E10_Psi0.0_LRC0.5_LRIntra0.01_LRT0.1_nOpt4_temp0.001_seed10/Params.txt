@@ -1,0 +1,11 @@
+gamma:0.99
+lr_critic:0.5
+lr_intra:0.01
+lr_term:0.1
+nepisodes:10
+noptions:4
+nruns:1
+nsteps:500
+psi:0.0
+seed:10
+temperature:0.001
